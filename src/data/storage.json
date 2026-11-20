@@ -1,0 +1,250 @@
+{
+  "reviews": [
+    {
+      "guestName": "Eleni Haile",
+      "email": "eleni.h@example.com",
+      "rating": 5,
+      "title": "Unforgettable Lake Tana Retreat",
+      "comment": "The calm courtyard fountain and the fresh grilled fish at Galleria made our holiday wonderful. Classic Bahir Dar hospitality at its finest.",
+      "stayDate": "November 2026",
+      "consent": true,
+      "verifiedStay": false,
+      "id": "rev-1795170756614-325",
+      "status": "approved",
+      "createdAt": "2026-11-20T10:32:36.614Z"
+    },
+    {
+      "id": "rev-1",
+      "guestName": "Abebe Kassahun",
+      "email": "abebe.k@example.com",
+      "rating": 5,
+      "title": "Warm Ethiopian hospitality and peaceful garden",
+      "comment": "Dib Anbessa Hotel is a genuine classic in Bahir Dar. The hand-carved woodwork in the rooms, the quiet courtyard fountain, and the warm service by the front desk team made our stay truly memorable. The fresh Lake Tana fish at Galleria Restaurant was prepared to perfection.",
+      "stayDate": "October 2026",
+      "status": "approved",
+      "createdAt": "2026-10-24T14:30:00.000Z",
+      "consent": true,
+      "verifiedStay": true
+    },
+    {
+      "id": "rev-2",
+      "guestName": "Marcus Schneider",
+      "email": "marcus.s@example.com",
+      "rating": 5,
+      "title": "Authentic character, not a soulless corporate hotel",
+      "comment": "If you want to experience real Ethiopian hospitality and classic architecture with character, this is the place. The curved balconies overlooking the palm avenue, the traditional art in the lobby, and the helpful staff who arranged our Blue Nile Falls trip made it a highlight of our trip.",
+      "stayDate": "September 2026",
+      "status": "approved",
+      "createdAt": "2026-09-18T11:15:00.000Z",
+      "consent": true,
+      "verifiedStay": true
+    },
+    {
+      "id": "rev-3",
+      "guestName": "Selamawit Tadesse",
+      "email": "selam.t@example.com",
+      "rating": 4,
+      "title": "Clean rooms, historic atmosphere, and great central location",
+      "comment": "The hotel has an established charm you rarely find today. Spacious rooms with comfortable beds and nice balconies. Very convenient to walk to the market and quick drive to the lake boat departure point. The staff greeted us with warm smiles every day.",
+      "stayDate": "November 2026",
+      "status": "approved",
+      "createdAt": "2026-11-05T09:45:00.000Z",
+      "consent": true,
+      "verifiedStay": true
+    }
+  ],
+  "enquiries": [
+    {
+      "fullName": "Kassahun Mesfin",
+      "email": "kassahun.m@example.com",
+      "phone": "+251 91 234 5678",
+      "checkIn": "2026-12-20",
+      "checkOut": "2026-12-24",
+      "guests": 2,
+      "roomType": "deluxe-terracotta",
+      "airportPickup": true,
+      "lakeExcursion": true,
+      "notes": "Arriving on midday flight. Please arrange airport transfer.",
+      "id": "enq-1795170756655",
+      "referenceNumber": "DAH-2026-9772",
+      "status": "contacted",
+      "createdAt": "2026-11-20T10:32:36.655Z"
+    },
+    {
+      "id": "enq-101",
+      "referenceNumber": "DAH-2026-8491",
+      "fullName": "Dawit Worku",
+      "email": "dawit.worku@example.com",
+      "phone": "+251 91 123 4567",
+      "checkIn": "2026-12-15",
+      "checkOut": "2026-12-18",
+      "guests": 2,
+      "roomType": "heritage-carved-wood",
+      "airportPickup": true,
+      "lakeExcursion": true,
+      "notes": "Arriving on afternoon Ethiopian Airlines flight from Addis Ababa. Requesting quiet room.",
+      "status": "contacted",
+      "createdAt": "2026-11-19T08:20:00.000Z"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "classic-twin",
+      "name": "Classic Twin Bedroom",
+      "amharicName": "ክላሲክ ባለ ሁለት አልጋ ክፍል",
+      "tagline": "Comfortable twin accommodation with private balcony and traditional warmth",
+      "image": "/images/hotel/room-twin-classic-petals.webp",
+      "gallery": [
+        "/images/hotel/room-twin-classic-petals.webp",
+        "/images/hotel/exterior-property-hub-cover.jpg",
+        "/images/hotel/courtyard-garden-fountain.webp"
+      ],
+      "description": "A spacious, serene guest room outfitted with two comfortable twin beds, padded leatherette headboard, decorative carpet, and fresh floral touches upon arrival. Large glass doors open to a private balcony with gentle Bahir Dar breezes.",
+      "capacity": {
+        "adults": 2,
+        "children": 1
+      },
+      "bedType": "2 Twin Beds",
+      "sizeM2": 26,
+      "priceNote": "Rates available upon enquiry — confirmed directly by management",
+      "amenities": [
+        "Private Balcony with City / Courtyard Views",
+        "Private En-suite Bathroom with Hot Shower",
+        "Complimentary Bottled Water Daily",
+        "Flat-Screen TV with Satellite Channels",
+        "Daily Housekeeping & Fresh Linens",
+        "High-Speed Wi-Fi Access",
+        "Comfortable Reading Lamps & Nightstand",
+        "24-Hour Room Service Available"
+      ],
+      "features": [
+        "Twin bed layout ideal for colleagues or friends",
+        "Generous natural lighting through full-height balcony door",
+        "Quiet wing positioning overlooking the inner courtyard"
+      ],
+      "isAvailable": true
+    },
+    {
+      "id": "heritage-carved-wood",
+      "name": "Heritage Carved Wood Double",
+      "amharicName": "ባህላዊ የተቀረጸ ድርብ ክፍል",
+      "tagline": "Distinctive Ethiopian woodcraft paired with restful comfort and vintage seating",
+      "image": "/images/hotel/room-heritage-carved-wood.webp",
+      "gallery": [
+        "/images/hotel/room-heritage-carved-wood.webp",
+        "/images/hotel/lobby-timber-fresco-screen.webp",
+        "/images/hotel/reception-grand-staircase.webp"
+      ],
+      "description": "Showcasing the authentic artisanal heritage of Ethiopia, this room features a magnificent hand-carved mahogany headboard with traditional geometric archways. Draped in crisp white sheets with golden woven Ethiopian runners and paired with vintage upholstered armchairs.",
+      "capacity": {
+        "adults": 2,
+        "children": 1
+      },
+      "bedType": "1 Queen Bed or 2 Joint Doubles",
+      "sizeM2": 28,
+      "priceNote": "Rates available upon enquiry — confirmed directly by management",
+      "amenities": [
+        "Handcrafted Ethiopian Carved Wood Bedstead",
+        "Traditional Woven Cotton Accents (Gabi/Netela style)",
+        "Vintage Lounge Armchairs & Coffee Corner",
+        "Private Balcony with Avenue / Garden Perspective",
+        "Private Bathroom with Rainfall Showerhead",
+        "Complimentary Bottled Spring Water",
+        "Flat-Screen TV & Wi-Fi",
+        "Luggage Wardrobe and Vanity Table"
+      ],
+      "features": [
+        "One-of-a-kind handcrafted timber headboard with Ethiopian motifs",
+        "Serene atmosphere celebrating classic Ethiopian hospitality",
+        "Dedicated seating area for writing or reading"
+      ],
+      "isAvailable": true
+    },
+    {
+      "id": "deluxe-terracotta",
+      "name": "Deluxe Terracotta King Room",
+      "amharicName": "ዴሉክስ ቴራኮታ ኪንግ ክፍል",
+      "tagline": "Expanded comfort featuring tufted leatherette styling and dedicated work lounge",
+      "image": "/images/hotel/room-deluxe-terracotta.webp",
+      "gallery": [
+        "/images/hotel/room-deluxe-terracotta.webp",
+        "/images/hotel/bar-classic-lounge.webp",
+        "/images/hotel/exterior-night-illuminated.webp"
+      ],
+      "description": "Our premier individual double room boasting an expansive tufted terracotta leatherette headboard, clean tiled flooring, private study desk with comfortable seating, and personalized in-room refreshments. Floor-to-ceiling drapery ensures tranquil rest after a day exploring Lake Tana.",
+      "capacity": {
+        "adults": 2,
+        "children": 1
+      },
+      "bedType": "1 King or Large Queen Bed",
+      "sizeM2": 32,
+      "priceNote": "Rates available upon enquiry — confirmed directly by management",
+      "amenities": [
+        "Expansive King Size Bed with Premium Mattress",
+        "Padded Terracotta Leatherette Headboard",
+        "Dedicated Writing Desk with Lamp & Ergonomic Chair",
+        "In-Room Beverage & Wine Service Chiller Set",
+        "Private En-Suite Bathroom with Bathrobes & Slippers",
+        "Flat-Screen TV with International News & Sports",
+        "High-Speed Wi-Fi Connectivity",
+        "Blackout Privacy Curtains & Balcony Access"
+      ],
+      "features": [
+        "Generous floor space suited for business travelers or couples",
+        "Dedicated executive writing desk and charging ports",
+        "Private balcony with elevated view"
+      ],
+      "isAvailable": true
+    },
+    {
+      "id": "executive-suite",
+      "name": "Executive Balcony Suite",
+      "amharicName": "ኤግዚክዩቲቭ ሰፊ በረንዳ ያለው ስዊት",
+      "tagline": "Expansive multi-space comfort with private panoramic balcony and lounge area",
+      "image": "/images/hotel/exterior-palms-facade.webp",
+      "gallery": [
+        "/images/hotel/exterior-palms-facade.webp",
+        "/images/hotel/room-deluxe-terracotta.webp",
+        "/images/hotel/dining-banquet-spread.webp"
+      ],
+      "description": "Positioned along the hotel's distinctive curved facade, the Executive Balcony Suite offers superior living space, an adjoining parlor lounge area, and an expansive curved balcony overlooking the palm avenue of Bahir Dar. Ideal for extended stays, families, or guests desiring elevated comfort.",
+      "capacity": {
+        "adults": 3,
+        "children": 2
+      },
+      "bedType": "1 King Bed + Convertible Sofa / Twin",
+      "sizeM2": 44,
+      "priceNote": "Rates available upon enquiry — confirmed directly by management",
+      "amenities": [
+        "Panoramic Curved Balcony with Palm Views",
+        "Separate Living Lounge with Velvet Armchairs",
+        "Spacious Wardrobes and Luggage Storage",
+        "Luxury En-Suite Bathroom with Full Bath Amenities",
+        "Complimentary Morning Coffee or Tea Service",
+        "Fast Wi-Fi & Large Flat-Screen TV",
+        "Daily Fruit Basket & Spring Water",
+        "Priority Excursion & Airport Shuttle Coordination"
+      ],
+      "features": [
+        "Prime location on the upper tier of the hotel's curved architecture",
+        "Sweeping views of Bahir Dar's main avenue and courtyard trees",
+        "Separate entertaining space for visitors or meetings"
+      ],
+      "isAvailable": true
+    }
+  ],
+  "settings": {
+    "phones": [
+      "+251 58 220 1436",
+      "+251 946 456 212",
+      "+251 98 211 7777"
+    ],
+    "emails": [
+      "info@dibanbessahotel.com",
+      "reservations@dibanbessahotel.com"
+    ],
+    "address": "A3 Highway / Lake Street, near St. George Church, Bahir Dar, Ethiopia",
+    "announcement": "Welcome to Dib Anbessa Hotel — Classic Hospitality on Lake Tana.",
+    "galleriaOpen": true
+  }
+}
